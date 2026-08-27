@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ECommerce Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression Tests(failed)">
+    <classes>
+      <class name="com.ecommerce.tests.DataDrivenLoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLogins" invocation-numbers="1 2"/>
+          <include name="setUp"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- com.ecommerce.tests.DataDrivenLoginTest -->
+    </classes>
+  </test> <!-- Regression Tests(failed) -->
+</suite> <!-- Failed suite [ECommerce Automation Suite] -->
