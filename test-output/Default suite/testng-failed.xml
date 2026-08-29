@@ -6,10 +6,10 @@
       <class name="com.ecommerce.tests.SearchTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="setUpSuite"/>
+          <include name="setUp"/>
+          <include name="verifyGoogleSearch" invocation-numbers="2"/>
           <include name="tearDownSuite"/>
-          <include name="verifyGoogleSearch"/>
         </methods>
       </class> <!-- com.ecommerce.tests.SearchTest -->
     </classes>
