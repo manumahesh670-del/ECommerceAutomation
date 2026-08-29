@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--363556067\testng-customsuite.xml</span>
+                    <span>C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--795875390\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -117,12 +117,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.ecommerce.tests.SearchTest" class="method navigator-link" hash-for-method="verifyGoogleSearch(laptop)">verifyGoogleSearch(laptop)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.ecommerce.tests.SearchTest" class="method navigator-link" hash-for-method="verifyGoogleSearch(iphone)">verifyGoogleSearch(iphone)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.ecommerce.tests.SearchTest" class="method navigator-link" hash-for-method="verifyGoogleSearch(iphone)">verifyGoogleSearch(iphone)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.ecommerce.tests.SearchTest" class="method navigator-link" hash-for-method="verifyGoogleSearch(laptop)">verifyGoogleSearch(laptop)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -149,11 +149,15 @@
                   </a> <!-- verifyGoogleSearch(running shoes) -->
                   <span class="method-name">verifyGoogleSearch</span>
                   <span class="parameters">(running shoes)</span>
-                  <div class="stack-trace">java.lang.AssertionError: Error: Results failed for running shoes expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:37)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;running shoes&quot;. Current title: &quot;https://www.google.com/search?q=running+shoes&amp;sca_esv=936fc7d1f21905e6&amp;source=hp&amp;ei=LgCTao_WDefj2roPxJrEoQQ&amp;iflsig=ABILxe8AAAAAapMOPrde3UbsJOXevlZZb0ot3x7phWHz&amp;ved=0ahUKEwiPpYXsmMaWAxXnsVYBHUQNMUQQ4dUDCB4&amp;uact=5&amp;oq=running+shoes&amp;gs_lp=Egdnd3Mtd2l6Ig1ydW5uaW5nIHNob2VzMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQABiABBixA0ipAlAAWGZwAHgAkAEAmAGWAaABhgSqAQMxLjO4AQPIAQD4AQGYAgSgAroEmAMAkgcDMC40oAfZFLIHAzAuNLgHugTCBwUyLTMuMcgHJIAIAQ&amp;sclient=gws-wiz&amp;sei=MACTao2CF8aX4-EPgtjLyA0&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52550}, goog:processID: 16028, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52550/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2660a2513a0b69b6b5f7bf95d6fc479b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -194,18 +198,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyGoogleSearch(laptop)">
-                  </a> <!-- verifyGoogleSearch(laptop) -->
-                  <span class="method-name">verifyGoogleSearch</span>
-                  <span class="parameters">(laptop)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyGoogleSearch(iphone)">
                   </a> <!-- verifyGoogleSearch(iphone) -->
                   <span class="method-name">verifyGoogleSearch</span>
                   <span class="parameters">(iphone)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGoogleSearch(laptop)">
+                  </a> <!-- verifyGoogleSearch(laptop) -->
+                  <span class="method-name">verifyGoogleSearch</span>
+                  <span class="parameters">(laptop)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -213,7 +217,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--363556067\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\LENOVO\AppData\Local\Temp\testng-eclipse--795875390\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -266,20 +270,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyGoogleSearch')
 data.setCell(0, 2, 'com.ecommerce.tests.SearchTest')
-data.setCell(0, 3, 5861);
+data.setCell(0, 3, 12337);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyGoogleSearch')
 data.setCell(1, 2, 'com.ecommerce.tests.SearchTest')
-data.setCell(1, 3, 5374);
+data.setCell(1, 3, 4398);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyGoogleSearch')
 data.setCell(2, 2, 'com.ecommerce.tests.SearchTest')
-data.setCell(2, 3, 5165);
+data.setCell(2, 3, 4138);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -311,46 +315,46 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String) throws java.lang.Int...)</span>
-                <span class="method-start">664 ms</span>
+                <span class="method-name">setUp(public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String))</span>
+                <span class="method-start">635 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyGoogleSearch(laptop)</span>
-                <span class="method-start">4163 ms</span>
+                <span class="method-start">3935 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyGoogleSearch status=SUCCESS method=SearchTest.verifyGoogleSearch(java.lang.St...)</span>
-                <span class="method-start">9341 ms</span>
+                <span class="method-start">8348 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String) throws java.lang.Int...)</span>
-                <span class="method-start">9934 ms</span>
+                <span class="method-name">setUp(public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String))</span>
+                <span class="method-start">8946 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyGoogleSearch(iphone)</span>
-                <span class="method-start">11986 ms</span>
+                <span class="method-start">10797 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyGoogleSearch status=SUCCESS method=SearchTest.verifyGoogleSearch(java.lang.St...)</span>
-                <span class="method-start">17364 ms</span>
+                <span class="method-start">14939 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String) throws java.lang.Int...)</span>
-                <span class="method-start">17847 ms</span>
+                <span class="method-name">setUp(public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String))</span>
+                <span class="method-start">15374 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyGoogleSearch(running shoes)</span>
-                <span class="method-start">19735 ms</span>
+                <span class="method-start">17180 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=verifyGoogleSearch status=FAILURE method=SearchTest.verifyGoogleSearch(java.lang.St...)</span>
-                <span class="method-start">25603 ms</span>
+                <span class="method-start">29527 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDownSuite</span>
-                <span class="method-start">26495 ms</span>
+                <span class="method-start">30434 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

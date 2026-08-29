@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Aug 29 20:38:16 IST 2026</td>
+<td>Started on:</td><td>Sat Aug 29 21:21:56 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>25 seconds (25825 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29794 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,11 +77,15 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.ecommerce.tests.SearchTest.verifyGoogleSearch()'><b>verifyGoogleSearch</b><br>Test class: com.ecommerce.tests.SearchTest<br>Parameters: running shoes</td>
-<td><div><pre>java.lang.AssertionError: Error: Results failed for running shoes expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:37)
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;running shoes&quot;. Current title: &quot;https://www.google.com/search?q=running+shoes&amp;sca_esv=936fc7d1f21905e6&amp;source=hp&amp;ei=LgCTao_WDefj2roPxJrEoQQ&amp;iflsig=ABILxe8AAAAAapMOPrde3UbsJOXevlZZb0ot3x7phWHz&amp;ved=0ahUKEwiPpYXsmMaWAxXnsVYBHUQNMUQQ4dUDCB4&amp;uact=5&amp;oq=running+shoes&amp;gs_lp=Egdnd3Mtd2l6Ig1ydW5uaW5nIHNob2VzMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQABiABBixA0ipAlAAWGZwAHgAkAEAmAGWAaABhgSqAQMxLjO4AQPIAQD4AQGYAgSgAroEmAMAkgcDMC40oAfZFLIHAzAuNLgHugTCBwUyLTMuMcgHJIAIAQ&amp;sclient=gws-wiz&amp;sei=MACTao2CF8aX4-EPgtjLyA0&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52550}, goog:processID: 16028, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52550/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2660a2513a0b69b6b5f7bf95d6fc479b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -108,12 +112,16 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace276714561", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace276714561'><pre>java.lang.AssertionError: Error: Results failed for running shoes expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1602785474", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1602785474'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;running shoes&quot;. Current title: &quot;https://www.google.com/search?q=running+shoes&amp;sca_esv=936fc7d1f21905e6&amp;source=hp&amp;ei=LgCTao_WDefj2roPxJrEoQQ&amp;iflsig=ABILxe8AAAAAapMOPrde3UbsJOXevlZZb0ot3x7phWHz&amp;ved=0ahUKEwiPpYXsmMaWAxXnsVYBHUQNMUQQ4dUDCB4&amp;uact=5&amp;oq=running+shoes&amp;gs_lp=Egdnd3Mtd2l6Ig1ydW5uaW5nIHNob2VzMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQABiABBixA0ipAlAAWGZwAHgAkAEAmAGWAaABhgSqAQMxLjO4AQPIAQD4AQGYAgSgAroEmAMAkgcDMC40oAfZFLIHAzAuNLgHugTCBwUyLTMuMcgHJIAIAQ&amp;sclient=gws-wiz&amp;sei=MACTao2CF8aX4-EPgtjLyA0&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52550}, goog:processID: 16028, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52550/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2660a2513a0b69b6b5f7bf95d6fc479b
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -141,8 +149,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>5</td>
-<td>com.ecommerce.tests.SearchTest@f5ac9e4</td></tr>
+<td>12</td>
+<td>com.ecommerce.tests.SearchTest@59fd97a8</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -153,15 +161,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ecommerce.tests.SearchTest.verifyGoogleSearch()'><b>verifyGoogleSearch</b><br>Test class: com.ecommerce.tests.SearchTest<br>Parameters: laptop</td>
-<td></td>
-<td>5</td>
-<td>com.ecommerce.tests.SearchTest@f5ac9e4</td></tr>
-<tr>
 <td title='com.ecommerce.tests.SearchTest.verifyGoogleSearch()'><b>verifyGoogleSearch</b><br>Test class: com.ecommerce.tests.SearchTest<br>Parameters: iphone</td>
 <td></td>
-<td>5</td>
-<td>com.ecommerce.tests.SearchTest@f5ac9e4</td></tr>
+<td>4</td>
+<td>com.ecommerce.tests.SearchTest@59fd97a8</td></tr>
+<tr>
+<td title='com.ecommerce.tests.SearchTest.verifyGoogleSearch()'><b>verifyGoogleSearch</b><br>Test class: com.ecommerce.tests.SearchTest<br>Parameters: laptop</td>
+<td></td>
+<td>4</td>
+<td>com.ecommerce.tests.SearchTest@59fd97a8</td></tr>
 </table><p>
 </body>
 </html>
