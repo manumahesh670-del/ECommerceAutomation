@@ -1,168 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-08-29T21:21:56 IST" name="Default suite" finished-at="2026-08-29T21:22:26 IST" duration-ms="29794">
+  <suite started-at="2026-08-29T21:27:51 IST" name="Default suite" finished-at="2026-08-29T21:28:00 IST" duration-ms="9585">
     <groups>
     </groups>
-    <test started-at="2026-08-29T21:21:56 IST" name="Default test" finished-at="2026-08-29T21:22:26 IST" duration-ms="29794">
-      <class name="com.ecommerce.tests.SearchTest">
-        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:21:56 IST" name="setUpSuite" finished-at="2026-08-29T21:21:56 IST" duration-ms="548" status="PASS">
+    <test started-at="2026-08-29T21:27:51 IST" name="Default test" finished-at="2026-08-29T21:28:00 IST" duration-ms="9585">
+      <class name="com.ecommerce.tests.ClickTest">
+        <test-method is-config="true" signature="setUpSuite()[pri:0, instance:com.ecommerce.tests.ClickTest@16ec5519]" started-at="2026-08-29T21:27:50 IST" name="setUpSuite" finished-at="2026-08-29T21:27:51 IST" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:21:56 IST" name="setUp" finished-at="2026-08-29T21:22:00 IST" duration-ms="3296" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.ecommerce.tests.ClickTest@16ec5519]" started-at="2026-08-29T21:27:51 IST" name="setUp" finished-at="2026-08-29T21:27:55 IST" duration-ms="3585" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String)]]>
+                <![CDATA[public void com.ecommerce.tests.ClickTest.verifyGmailLinkClick()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:00 IST" name="verifyGoogleSearch" data-provider="searchWords" finished-at="2026-08-29T21:22:04 IST" duration-ms="4398" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laptop]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verifyGmailLinkClick()[pri:0, instance:com.ecommerce.tests.ClickTest@16ec5519]" started-at="2026-08-29T21:27:55 IST" name="verifyGmailLinkClick" finished-at="2026-08-29T21:28:00 IST" duration-ms="5496" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:04 IST" name="tearDown" finished-at="2026-08-29T21:22:05 IST" duration-ms="595" status="PASS">
+        </test-method> <!-- verifyGmailLinkClick -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ecommerce.tests.ClickTest@16ec5519]" started-at="2026-08-29T21:28:00 IST" name="tearDown" finished-at="2026-08-29T21:28:00 IST" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyGoogleSearch status=SUCCESS method=SearchTest.verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8] output={null}]]]>
+                <![CDATA[[TestResult name=verifyGmailLinkClick status=SUCCESS method=ClickTest.verifyGmailLinkClick()[pri:0, instance:com.ecommerce.tests.ClickTest@16ec5519] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:05 IST" name="setUp" finished-at="2026-08-29T21:22:06 IST" duration-ms="1851" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:06 IST" name="verifyGoogleSearch" data-provider="searchWords" finished-at="2026-08-29T21:22:11 IST" duration-ms="4138" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[iphone]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:11 IST" name="tearDown" finished-at="2026-08-29T21:22:11 IST" duration-ms="434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyGoogleSearch status=SUCCESS method=SearchTest.verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:11 IST" name="setUp" finished-at="2026-08-29T21:22:13 IST" duration-ms="1803" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ecommerce.tests.SearchTest.verifyGoogleSearch(java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:13 IST" name="verifyGoogleSearch" data-provider="searchWords" finished-at="2026-08-29T21:22:25 IST" duration-ms="12337" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[running shoes]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for title to contain "running shoes". Current title: "https://www.google.com/search?q=running+shoes&sca_esv=936fc7d1f21905e6&source=hp&ei=LgCTao_WDefj2roPxJrEoQQ&iflsig=ABILxe8AAAAAapMOPrde3UbsJOXevlZZb0ot3x7phWHz&ved=0ahUKEwiPpYXsmMaWAxXnsVYBHUQNMUQQ4dUDCB4&uact=5&oq=running+shoes&gs_lp=Egdnd3Mtd2l6Ig1ydW5uaW5nIHNob2VzMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQABiABBixA0ipAlAAWGZwAHgAkAEAmAGWAaABhgSqAQMxLjO4AQPIAQD4AQGYAgSgAroEmAMAkgcDMC40oAfZFLIHAzAuNLgHugTCBwUyLTMuMcgHJIAIAQ&sclient=gws-wiz&sei=MACTao2CF8aX4-EPgtjLyA0" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52550}, goog:processID: 16028, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52550/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2660a2513a0b69b6b5f7bf95d6fc479b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "running shoes". Current title: "https://www.google.com/search?q=running+shoes&sca_esv=936fc7d1f21905e6&source=hp&ei=LgCTao_WDefj2roPxJrEoQQ&iflsig=ABILxe8AAAAAapMOPrde3UbsJOXevlZZb0ot3x7phWHz&ved=0ahUKEwiPpYXsmMaWAxXnsVYBHUQNMUQQ4dUDCB4&uact=5&oq=running+shoes&gs_lp=Egdnd3Mtd2l6Ig1ydW5uaW5nIHNob2VzMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMggQABiABBixA0ipAlAAWGZwAHgAkAEAmAGWAaABhgSqAQMxLjO4AQPIAQD4AQGYAgSgAroEmAMAkgcDMC40oAfZFLIHAzAuNLgHugTCBwUyLTMuMcgHJIAIAQ&sclient=gws-wiz&sei=MACTao2CF8aX4-EPgtjLyA0" (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52550}, goog:processID: 16028, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52550/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2660a2513a0b69b6b5f7bf95d6fc479b
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:35)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:25 IST" name="tearDown" finished-at="2026-08-29T21:22:26 IST" duration-ms="812" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyGoogleSearch status=FAILURE method=SearchTest.verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.ecommerce.tests.SearchTest@59fd97a8]" started-at="2026-08-29T21:22:26 IST" name="tearDownSuite" finished-at="2026-08-29T21:22:27 IST" duration-ms="719" status="PASS">
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:com.ecommerce.tests.ClickTest@16ec5519]" started-at="2026-08-29T21:28:01 IST" name="tearDownSuite" finished-at="2026-08-29T21:28:01 IST" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownSuite -->
-      </class> <!-- com.ecommerce.tests.SearchTest -->
+      </class> <!-- com.ecommerce.tests.ClickTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
