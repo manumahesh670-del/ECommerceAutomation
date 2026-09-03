@@ -8,6 +8,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import com.ecommerce.base.BaseTest;
 import com.ecommerce.pages.HomePage;
+import com.ecommerce.utils.ConfigReader;
 
 public class SearchTest extends BaseTest { 
 
@@ -24,7 +25,7 @@ public class SearchTest extends BaseTest {
     public void verifyGoogleSearch(String searchItem) {
         
         // 1. Go to Google
-        driver.get("https://www.google.com");
+    	driver.get(ConfigReader.getProperty("url"));
         HomePage homePage = new HomePage(driver);
         
         // 2. Type the word and hit Enter
