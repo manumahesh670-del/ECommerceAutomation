@@ -10,7 +10,8 @@
     <test name="Google Tests">
         <classes>
             <class name="com.ecommerce.tests.SearchTest"/>
-            <class name="com.ecommerce.tests.ClickTest"/>
+            <!-- Add your brand new API test here! -->
+            <class name="com.ecommerce.tests.ApiDemoTest"/>
         </classes>
     </test>
 

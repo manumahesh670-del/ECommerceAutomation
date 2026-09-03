@@ -2,30 +2,22 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-03T22:18:30 IST" name="ECommerce Automation Suite" finished-at="2026-09-03T22:18:52 IST" duration-ms="22567">
+  <suite started-at="2026-09-03T22:58:37 IST" name="ECommerce Automation Suite" finished-at="2026-09-03T22:59:00 IST" duration-ms="22490">
     <groups>
     </groups>
-    <test started-at="2026-09-03T22:18:30 IST" name="Google Tests" finished-at="2026-09-03T22:18:52 IST" duration-ms="22567">
-      <class name="com.ecommerce.tests.ClickTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.ClickTest@5524cca1]" started-at="2026-09-03T22:18:49 IST" name="setUp" finished-at="2026-09-03T22:18:50 IST" duration-ms="814" status="PASS">
+    <test started-at="2026-09-03T22:58:37 IST" name="Google Tests" finished-at="2026-09-03T22:59:00 IST" duration-ms="22490">
+      <class name="com.ecommerce.tests.ApiDemoTest">
+        <test-method signature="verifyGetUserApi()[pri:0, instance:com.ecommerce.tests.ApiDemoTest@7c137fd5]" started-at="2026-09-03T22:58:58 IST" name="verifyGetUserApi" finished-at="2026-09-03T22:59:00 IST" duration-ms="1983" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyGmailLinkClick()[pri:0, instance:com.ecommerce.tests.ClickTest@5524cca1]" started-at="2026-09-03T22:18:50 IST" name="verifyGmailLinkClick" finished-at="2026-09-03T22:18:52 IST" duration-ms="2041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyGmailLinkClick -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.ClickTest@5524cca1]" started-at="2026-09-03T22:18:52 IST" name="tearDown" finished-at="2026-09-03T22:18:52 IST" duration-ms="159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ecommerce.tests.ClickTest -->
+        </test-method> <!-- verifyGetUserApi -->
+      </class> <!-- com.ecommerce.tests.ApiDemoTest -->
       <class name="com.ecommerce.tests.SearchTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:30 IST" name="setUp" finished-at="2026-09-03T22:18:32 IST" duration-ms="1318" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:38 IST" name="setUp" finished-at="2026-09-03T22:58:39 IST" duration-ms="1359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:32 IST" name="verifyGoogleSearch" data-provider="excelSearchData" finished-at="2026-09-03T22:18:34 IST" duration-ms="2098" status="PASS">
+        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:39 IST" name="verifyGoogleSearch" data-provider="excelSearchData" finished-at="2026-09-03T22:58:42 IST" duration-ms="2790" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,15 +28,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:34 IST" name="tearDown" finished-at="2026-09-03T22:18:34 IST" duration-ms="201" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:42 IST" name="tearDown" finished-at="2026-09-03T22:58:42 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:34 IST" name="setUp" finished-at="2026-09-03T22:18:35 IST" duration-ms="774" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:42 IST" name="setUp" finished-at="2026-09-03T22:58:43 IST" duration-ms="743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:35 IST" name="verifyGoogleSearch" data-provider="excelSearchData" finished-at="2026-09-03T22:18:37 IST" duration-ms="2126" status="PASS">
+        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:43 IST" name="verifyGoogleSearch" data-provider="excelSearchData" finished-at="2026-09-03T22:58:45 IST" duration-ms="2465" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,15 +47,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:37 IST" name="tearDown" finished-at="2026-09-03T22:18:37 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:45 IST" name="tearDown" finished-at="2026-09-03T22:58:45 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:37 IST" name="setUp" finished-at="2026-09-03T22:18:38 IST" duration-ms="836" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:45 IST" name="setUp" finished-at="2026-09-03T22:58:46 IST" duration-ms="774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:38 IST" name="verifyGoogleSearch" data-provider="excelSearchData" finished-at="2026-09-03T22:18:49 IST" duration-ms="11075" status="FAIL">
+        <test-method signature="verifyGoogleSearch(java.lang.String)[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:46 IST" name="verifyGoogleSearch" data-provider="excelSearchData" finished-at="2026-09-03T22:58:57 IST" duration-ms="11218" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -73,22 +65,22 @@
           </params>
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for title to contain "running shoes". Current title: "https://www.google.com/search?q=running+shoes&sca_esv=daafaa10f68735e4&sxsrf=APpeQnt7Zl3D3AzIxsUQEDfepPOPR_vtjw%3A1788454118887&source=hp&ei=5qSZavLWNPeghvcPzu3umAs&iflsig=ABILxe8AAAAAapmy9kXMjAFb4QNDlnhHSuqnjOArfDbZ&sei=56SZatKqJPqkhvcPx67uoA4".
+              <![CDATA[Expected condition failed: waiting for title to contain "running shoes". Current title: "https://www.google.com/search?q=running+shoes&sca_esv=daafaa10f68735e4&sxsrf=APpeQnvPFeFJ8X96t7pYxm4HM9T7pbYYew%3A1788456527060&source=hp&ei=T66ZarWjAuOsseMPmdPjgA0&iflsig=ABILxe8AAAAAapm8X6_cft0WcdsizhhHOrBSyF0-yIf2&sei=T66Zaqj_NqTlseMPu7ToqAc".
 (tried for 10 seconds with 500 milliseconds interval)
 Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61850}, goog:processID: 29024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61850/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b31f8df41dde9177590f0a9e249b690c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62983}, goog:processID: 20596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62983/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc9fa2555e579afd6f9ea43fc96fa026]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "running shoes". Current title: "https://www.google.com/search?q=running+shoes&sca_esv=daafaa10f68735e4&sxsrf=APpeQnt7Zl3D3AzIxsUQEDfepPOPR_vtjw%3A1788454118887&source=hp&ei=5qSZavLWNPeghvcPzu3umAs&iflsig=ABILxe8AAAAAapmy9kXMjAFb4QNDlnhHSuqnjOArfDbZ&sei=56SZatKqJPqkhvcPx67uoA4".
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "running shoes". Current title: "https://www.google.com/search?q=running+shoes&sca_esv=daafaa10f68735e4&sxsrf=APpeQnvPFeFJ8X96t7pYxm4HM9T7pbYYew%3A1788456527060&source=hp&ei=T66ZarWjAuOsseMPmdPjgA0&iflsig=ABILxe8AAAAAapm8X6_cft0WcdsizhhHOrBSyF0-yIf2&sei=T66Zaqj_NqTlseMPu7ToqAc".
 (tried for 10 seconds with 500 milliseconds interval)
 Build info: version: '4.48.0', revision: '27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61850}, goog:processID: 29024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61850/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b31f8df41dde9177590f0a9e249b690c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.174, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62983}, goog:processID: 20596, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62983/devtoo..., se:cdpVersion: 151.0.7922.174, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bc9fa2555e579afd6f9ea43fc96fa026
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
 at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:35)
@@ -124,7 +116,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGoogleSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.SearchTest@1cf6d1be]" started-at="2026-09-03T22:18:49 IST" name="tearDown" finished-at="2026-09-03T22:18:49 IST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.tests.SearchTest@1349883]" started-at="2026-09-03T22:58:57 IST" name="tearDown" finished-at="2026-09-03T22:58:58 IST" duration-ms="158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
