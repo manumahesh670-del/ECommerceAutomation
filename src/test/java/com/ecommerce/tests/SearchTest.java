@@ -12,22 +12,21 @@ import com.ecommerce.utils.ConfigReader;
 
 public class SearchTest extends BaseTest { 
 
-    @DataProvider(name = "searchWords")
-    public Object[][] getData() {
-        return new Object[][] {
-            {"laptop"},
-            {"iphone"},
-            {"running shoes"}
-        };
+	@DataProvider(name = "excelSearchData")
+    public Object[][] getSearchData() {
+        String excelPath = System.getProperty("user.dir") + "/src/test/resources/TestData.xlsx";
+        // Using the full path here so Eclipse doesn't give you any red import errors!
+        return ExcelUtils.getTestData(excelPath, "Sheet1");
     }
 
-    @Test(dataProvider = "searchWords")
+	@Test(dataProvider = "excelSearchData")
     public void verifyGoogleSearch(String searchItem) {
-        
-        // 1. Go to Google
-    	driver.get(ConfigReader.getProperty("url"));
+        // Put the intentional failure right here, INSIDE the method!
+      
+     // 1. Go to Google
+        driver.get(ConfigReader.getProperty("url"));
         HomePage homePage = new HomePage(driver);
-        
+
         // 2. Type the word and hit Enter
         homePage.searchForProduct(searchItem);
         

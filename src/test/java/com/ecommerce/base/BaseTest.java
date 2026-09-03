@@ -1,16 +1,19 @@
 package com.ecommerce.base;
 
 import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+
 import com.ecommerce.utils.ConfigReader;
 
 public class BaseTest {
-    public WebDriver driver;
+	public static WebDriver driver;
 
     @BeforeMethod
     public void setUp() {
@@ -19,9 +22,15 @@ public class BaseTest {
 
         // 2. Dynamically launch the correct browser
         switch (browser) {
-            case "chrome":
-                driver = new ChromeDriver();
-                break;
+        case "chrome":
+            ChromeOptions options = new ChromeOptions();
+            // This tells Chrome to run invisibly without a UI
+            options.addArguments("--headless");
+            // We must force a window size so elements don't get squished and become unclickable
+            options.addArguments("--window-size=1920,1080"); 
+            driver = new ChromeDriver(options);
+            break;
+                
             case "edge":
                 driver = new EdgeDriver();
                 break;

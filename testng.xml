@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-
-<!-- 1. Name your overall test suite -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ECommerce Automation Suite">
 
-    <!-- 2. Group your tests together -->
+    <!-- Activate our new watchdog! -->
+    <listeners>
+        <listener class-name="com.ecommerce.utils.TestListener"/>
+    </listeners>
+
     <test name="Google Tests">
         <classes>
-            <!-- 3. List the test files you want to run! -->
             <class name="com.ecommerce.tests.SearchTest"/>
             <class name="com.ecommerce.tests.ClickTest"/>
         </classes>

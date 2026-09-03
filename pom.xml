@@ -8,11 +8,11 @@
 
   <dependencies>
       <!-- 1. Selenium WebDriver -->
-      <dependency>
-          <groupId>org.seleniumhq.selenium</groupId>
-          <artifactId>selenium-java</artifactId>
-          <version>4.23.0</version>
-      </dependency>
+     <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+   <version>4.48.0</version> <!-- Yours will have a specific number here -->
+</dependency>
 
       <!-- 2. ExtentReports for HTML Reporting -->
       <dependency>
@@ -27,5 +27,16 @@
           <artifactId>testng</artifactId>
           <version>7.10.1</version>
       </dependency>
+      <!-- 4. Apache POI for Excel Data-Driven Testing -->
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi</artifactId>
+        <version>5.2.5</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.poi</groupId>
+        <artifactId>poi-ooxml</artifactId>
+        <version>5.2.5</version>
+    </dependency>
   </dependencies>
 </project>

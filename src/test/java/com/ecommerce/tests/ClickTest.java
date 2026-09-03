@@ -2,6 +2,7 @@ package com.ecommerce.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import com.ecommerce.base.BaseTest;
 import com.ecommerce.pages.HomePage; // Notice we import the HomePage now!
 
