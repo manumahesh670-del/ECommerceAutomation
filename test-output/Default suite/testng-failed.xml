@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifyGoogleSearch" invocation-numbers="2"/>
+          <include name="verifyGoogleSearch"/>
         </methods>
       </class> <!-- com.ecommerce.tests.SearchTest -->
     </classes>
