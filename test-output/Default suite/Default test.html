@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 04 14:06:29 IST 2026</td>
+<td>Started on:</td><td>Fri Sep 04 16:41:51 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3711 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11815 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,32 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.ecommerce.tests.SearchTest.verifyGoogleSearch()'><b>verifyGoogleSearch</b><br>Test class: com.ecommerce.tests.SearchTest</td>
-<td><div><pre>java.lang.AssertionError: Error: Page title does not match! expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:23)
+<td title='com.ecommerce.tests.CheckoutTest.verifyCheckoutProcess()'><b>verifyCheckoutProcess</b><br>Test class: com.ecommerce.tests.CheckoutTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#finish&quot;}
+  (Session info: chrome=152.0.7977.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d56c597242f98d4f6e0a81df54bbd0a4, findElement {value=finish, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.77, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49462}, goog:processID: 25948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49462/devtoo..., se:cdpVersion: 152.0.7977.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d56c597242f98d4f6e0a81df54bbd0a4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at com.ecommerce.pages.CheckoutPage.clickFinish(CheckoutPage.java:23)
+	at com.ecommerce.tests.CheckoutTest.verifyCheckoutProcess(CheckoutTest.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -108,12 +128,32 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace214649627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace214649627'><pre>java.lang.AssertionError: Error: Page title does not match! expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.ecommerce.tests.SearchTest.verifyGoogleSearch(SearchTest.java:23)
+</pre></div><a href='#' onClick='toggleBox("stack-trace782228073", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace782228073'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#finish&quot;}
+  (Session info: chrome=152.0.7977.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.48.0&apos;, revision: &apos;27f5213 27f5213055e28398a5105b7892b7a3bb2012a6ef&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d56c597242f98d4f6e0a81df54bbd0a4, findElement {value=finish, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.77, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49462}, goog:processID: 25948, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49462/devtoo..., se:cdpVersion: 152.0.7977.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d56c597242f98d4f6e0a81df54bbd0a4
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+	at com.ecommerce.pages.CheckoutPage.clickFinish(CheckoutPage.java:23)
+	at com.ecommerce.tests.CheckoutTest.verifyCheckoutProcess(CheckoutTest.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -141,8 +181,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>2</td>
-<td>com.ecommerce.tests.SearchTest@41fbdac4</td></tr>
+<td>10</td>
+<td>com.ecommerce.tests.CheckoutTest@41fbdac4</td></tr>
 </table><p>
 </body>
 </html>
